@@ -28,7 +28,7 @@ struct Point
     int y = 0;
 };
 
-int GetDistance()
+int GetDist()
 
 int GetTriangleArea(Point p1, Point p2, Point p3){
     int d1 = sqrt(pow(p1.x - p2.x, 2) + pow(p1.y - p2.y,2));
